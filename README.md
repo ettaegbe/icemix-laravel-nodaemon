@@ -1,9 +1,9 @@
 # NoDaemon
 
 [![Build Status](https://travis-ci.org/orobogenius/nodaemon.svg?branch=master)](https://travis-ci.org/orobogenius/nodaemon)
-[![Latest Stable Version](https://poser.pugx.org/queueworker/nodaemon/v/stable)](https://packagist.org/packages/queueworker/nodaemon)
-[![Total Downloads](https://poser.pugx.org/queueworker/nodaemon/downloads)](https://packagist.org/packages/queueworker/nodaemon)
-[![License](https://poser.pugx.org/queueworker/nodaemon/license)](https://packagist.org/packages/queueworker/nodaemon)
+[![Latest Stable Version](https://poser.pugx.org/icemix/nodaemon/v/stable)](https://packagist.org/packages/icemix/nodaemon)
+[![Total Downloads](https://poser.pugx.org/icemix/nodaemon/downloads)](https://packagist.org/packages/icemix/nodaemon)
+[![License](https://poser.pugx.org/icemix/nodaemon/license)](https://packagist.org/packages/icemix/nodaemon)
 ## Introduction
 Batch process Laravel Queue without a daemon; Processes all jobs on the queue(s) and exits without running on daemon mode. This is useful in cases where you just want to process jobs on the queue and exit the worker process so they don't pile up in memory.
 
@@ -14,7 +14,7 @@ To install the latest version of NoDaemon, simply use composer
 ### Download
 
 ```
-composer require queueworker/nodaemon
+composer require icemix/nodaemon
 ```
 
 - If your Laravel version is below 5.5, you'll need to add the service provider to your ```config/app.php``` file.

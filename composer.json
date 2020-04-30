@@ -1,5 +1,5 @@
 {
-    "name": "queueworker/nodaemon",
+    "name": "icemix/nodaemon",
     "type": "library",
     "description": "Batch process Laravel Queue without a daemon; Processes queue jobs and kills the process",
     "keywords": [
