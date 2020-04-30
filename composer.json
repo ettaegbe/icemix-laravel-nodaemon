@@ -1,0 +1,44 @@
+{
+    "name": "queueworker/nodaemon",
+    "type": "library",
+    "description": "Batch process Laravel Queue without a daemon; Processes queue jobs and kills the process",
+    "keywords": [
+        "queue",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "ETTA EGBE JOSEPH",
+        "email": "ettaegbe40@gmail.com"
+    }],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Queueworker\\NoDaemon\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Queueworker\\NoDaemon\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Queueworker\\NoDaemon\\NoDaemonServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
